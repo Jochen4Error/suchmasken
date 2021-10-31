@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube-Suche</title>
+  </head>
+  <body>
+    <h1>Youtube-Suche</h1>
+    <form action="https://www.youtube.com/results?search_query=suchmaschine" target="_blank">
+      <fieldset>
+        <legend>Suchbegriffe</legend>
+        <input type="text" id="search_query" name="search_query" style="width:99%;"  />
+      </fieldset>
+      <fieldset>
+        <legend>Filter</legend>
+        <input type="radio" id="sp20" name="sp" value="CAISBBABGAI%3D" checked="checked" />
+        <label for="sp">&gt;20 min + Uploaddatum</label>
+        <br />
+        <input type="radio" id="sp20" name="sp" value="CAASBBABGAI%3D" />
+        <label for="sp">&gt;20 min + Relevanz</label>
+        <br />
+        <input type="radio" id="sp20" name="sp" value="CAMSBBABGAI%3D" />
+        <label for="sp">&gt;20 min + Aufrufe</label>
+        <br />
+        <input type="radio" id="sp20" name="sp" value="CAESBBABGAI%3D" />
+        <label for="sp">&gt;20 min + Bewertung</label>
+      </fieldset>
+      <button type="submit">Eingaben absenden</button>
+    </form>
+  </body>
+</html>
+<!--
+     https://www.youtube.com/results?search_query=hans+&sp=EgIYAw%25253D%25253D
+     https://www.youtube.com/results?search_query=hans+&sp=EgIYAw%253D%253D
+     EgIYAw\x25253D\x25253D
+-->
